@@ -1,0 +1,28 @@
+Student Name: Chrispin Odiwuor
+
+Problem:
+Find which scores failed.
+
+Input:
+a list of student scores
+
+Output:
+the failing scores, or a message if no one failed
+
+Failing rule:
+score < 50
+
+Pseudocode:
+START
+1. Create an empty list called failing_scores.
+2. FOR each score in the list of student scores DO
+       IF score < 50 THEN
+           Add the score to failing_scores.
+       END IF
+   END FOR
+3. IF failing_scores is empty THEN
+       Display "No students failed."
+   ELSE
+       Display the failing_scores.
+   END IF
+END
