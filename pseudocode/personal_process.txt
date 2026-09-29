@@ -34,3 +34,5 @@ START
         Check the submission and try again.
 END
 
+Why this is clear enough to follow:
+The pseudocode lists the process in a logical order from completing the assignment to confirming submission. Each important action is written as a separate step, so the reader can follow the process without guessing what to do next. The IF/ELSE decision explains what to do when the assignment file is missing or cannot be opened. The final confirmation step also makes it clear how to determine whether the process was successful.
