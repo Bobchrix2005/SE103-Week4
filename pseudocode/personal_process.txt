@@ -1,0 +1,36 @@
+Student Name: Chrispin Odiwuor
+
+Problem:
+I need to submit a university assignment correctly before the deadline. The process involves checking the completed work, making sure the required file is ready, and submitting it through the course platform.
+
+Input:
+A completed assignment, the required file format, an internet connection, and access to the course submission page.
+
+Output:
+The assignment is successfully submitted and the submission confirmation is visible.
+
+Edge Case Handled:
+If the required file is missing or cannot be opened, stop the submission process and fix the file before continuing.
+
+Pseudocode:
+START
+1. Complete the assignment.
+2. Save the assignment using the required file format.
+3. Open the assignment file and check that it can be opened correctly.
+4. Open the course submission page.
+5. Check the assignment instructions and confirm that the correct file is required.
+6. IF the assignment file is missing or cannot be opened THEN
+       Stop the submission process.
+       Fix or recreate the assignment file.
+       Return to Step 3.
+   ELSE
+       Continue to Step 7.
+7. Upload the assignment file.
+8. Submit the assignment.
+9. Check for a submission confirmation.
+10. IF a submission confirmation is displayed THEN
+        Record that the assignment was submitted successfully.
+    ELSE
+        Check the submission and try again.
+END
+
