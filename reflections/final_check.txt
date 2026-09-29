@@ -1,0 +1,15 @@
+Student Name: Chrispin Odiwuor
+GitHub Username: Bobchrix2005
+Repository: SE103-Week4
+Repository URL: https://github.com/Bobchrix2005/SE103-Week4
+
+What I understand better about algorithms now:
+I understand that an algorithm is a sequence of clear and ordered steps used to solve a problem. I have learned that pseudocode can describe decisions and loops before actual code is written. I also understand that edge cases, such as empty input, should be considered when designing an algorithm. Writing precise steps makes an algorithm easier to implement and test.
+
+How tracing changed my confidence:
+Tracing helped me understand how an algorithm changes its variables and decisions at each step. By checking each input one at a time, I can verify whether the expected output is produced. This makes it easier to identify mistakes in logic before writing code. I am more confident in checking whether my pseudocode works correctly.
+
+One pseudocode habit I will keep:
+I will continue writing pseudocode using clear, ordered steps. I will define the input and output before describing the main process. I will also include decisions, loops, and important edge cases so that the algorithm is specific enough to implement.
+
+All required files are on main: Yes
