@@ -1,0 +1,16 @@
+Student Name: Chrispin Odiwuor
+GitHub Username: Bobchrix2005
+
+Authentication method I used: PAT
+
+Why I chose this method:
+I chose a personal access token because it allows Git to authenticate securely with GitHub over HTTPS. It is a practical way to push my coursework from Ubuntu to my GitHub repository.
+
+One security habit I must follow with this method:
+I must keep my personal access token private and never paste it into source files or commit it to GitHub. I should use a secure credential manager and revoke the token if it is exposed.
+
+Difference between a commit and a push:
+A commit saves staged changes in my local Git repository. A push uploads local commits to a remote repository on GitHub. Committing does not automatically upload my changes to GitHub. Pushing allows others and automated assignment checkers to access the committed work. I should check my commit and repository status before pushing.
+
+My repository URL:
+https://github.com/Bobchrix2005/SE103-Week4
