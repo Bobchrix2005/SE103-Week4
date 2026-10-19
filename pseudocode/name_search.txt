@@ -4,24 +4,34 @@ Problem:
 Search a list of names for one target name and report whether it was found.
 
 Input:
-- a list of names
-- one target name
+- A list of names
+- One target name
 
 Output:
 - "Found" or "Not found"
-- or an error if the list is empty
+- An error if the list is empty
 
 Pseudocode:
 START
-1. IF the list is empty THEN
-       Display "Error: list is empty".
-       Stop.
-   END IF
-2. FOR each name in the list DO
-       IF name is equal to the target name THEN
-           Display "Found".
-           Stop.
-       END IF
-   END FOR
-3. Display "Not found".
+    INPUT names
+    INPUT target
+
+    IF names is empty THEN
+        OUTPUT "Error: list is empty"
+    ELSE
+        SET found = FALSE
+
+        FOR EACH name IN names
+            IF name = target THEN
+                SET found = TRUE
+                BREAK
+            END IF
+        END FOR
+
+        IF found = TRUE THEN
+            OUTPUT "Found"
+        ELSE
+            OUTPUT "Not found"
+        END IF
+    END IF
 END
