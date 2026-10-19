@@ -1,0 +1,18 @@
+Student Name: Chrispin Odiwuor
+Name list: ["Ama", "Kofi", "Yaw"]
+
+Trace 1 - target "Kofi":
+1. Compare "Ama" with "Kofi". They do not match.
+2. Compare "Kofi" with "Kofi". They match.
+3. Set found = TRUE and stop searching.
+Result: Found
+
+Trace 2 - target "Efua":
+1. Compare "Ama" with "Efua". They do not match.
+2. Compare "Kofi" with "Efua". They do not match.
+3. Compare "Yaw" with "Efua". They do not match.
+4. The list ends without a match.
+Result: Not found
+
+Empty list input: []
+Empty list result: Error: list is empy
