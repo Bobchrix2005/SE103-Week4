@@ -3,13 +3,22 @@ GitHub Username: Bobchrix2005
 Repository: SE103-Week4
 Repository URL: https://github.com/Bobchrix2005/SE103-Week4
 
+What I understand better about algorithms now:
+I now understand that an algorithm is a sequence of clear and ordered steps used to solve a problem. Pseudocode helps me plan a solution before writing actual programming code. I have learned how to use decisions and loops to control the flow of an algorithm. I also understand that identifying inputs, outputs, and edge cases makes an algorithm more complete and reliable. Writing specific instructions makes it easier for another person to understand and implement a solution.
+
+How tracing changed my confidence:
+Tracing helped me understand how an algorithm processes input values step by step. I could follow how a counter changes when a number meets a particular condition. I also learned how a search algorithm checks each name and produces either Found or Not found. Testing different inputs, including an empty list, helped me identify possible errors and become more confident in my algorithms.
+
+One pseudocode habit I will keep:
+I will continue writing algorithms using clear, ordered steps. I will identify the inputs and expected outputs before designing a solution. I will also include appropriate decisions, loops, and edge-case handling so that my algorithms work correctly in different situations.
+
 What a pull request asks teammates to do:
-A pull request asks teammates to review proposed changes before they become part of the main project. It gives reviewers an opportunity to examine the code, provide feedback, and suggest improvements before the changes are merged.
+A pull request asks teammates to review proposed changes before they are added to the main branch. Reviewers can examine the files, identify mistakes, and suggest improvements. Once the changes are approved, the pull request can be merged into main.
 
 Why branches and pull requests are used together:
-Branches allow developers to work on changes separately without directly modifying the main project. Pull requests provide a way to review those changes before merging them into the main branch. Together, they make collaboration safer and more organized.
+Branches allow developers to work on new features without directly changing the main branch. Pull requests provide a way to review and discuss those changes before merging them. Using both helps teams collaborate, find errors early, and maintain a more organized project.
 
 One thing that confused me in this project and how I solved it:
-One thing that initially confused me was the difference between pushing a branch and merging it into main. I learned that pushing uploads my branch to GitHub but does not automatically add its changes to main. I solved this by creating a pull request from add-reflection into main and merging it after reviewing the changes.
+At first, I was confused about the difference between a branch and a pull request. I initially thought that creating a branch automatically added my changes to the main branch. I learned that a branch provides a separate working area, while a pull request is used to propose and review changes before merging. I solved this by creating the add-search-algorithm branch, pushing it to GitHub, opening a pull request, and merging it into main.
 
 All required files are on main: Yes
