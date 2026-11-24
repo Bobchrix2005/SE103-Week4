@@ -2,15 +2,14 @@ Student Name: Chrispin Odiwuor
 GitHub Username: Bobchrix2005
 Repository: SE103-Week4
 Repository URL: https://github.com/Bobchrix2005/SE103-Week4
-Repository: SE1110935852273-Week5
 
-What I understand better about algorithms now:
-I understand that an algorithm is a clear sequence of steps for solving a problem. Pseudocode helps me plan those steps without depending on a specific programming language. I have learned to use decisions to handle different conditions and loops to process lists of data. I also understand why algorithms must account for edge cases, such as empty lists. Breaking a problem into smaller steps makes the solution easier to understand and test.
+What a pull request asks teammates to do:
+A pull request asks teammates to review proposed changes before they become part of the main project. It gives reviewers an opportunity to examine the code, provide feedback, and suggest improvements before the changes are merged.
 
-How tracing changed my confidence:
-Tracing helped me follow an algorithm step by step using sample inputs. I learned how variables change and how decisions affect the final result. Testing both successful and unsuccessful cases helped me identify mistakes before implementing a solution. I am now more confident in checking whether an algorithm produces the expected output.
+Why branches and pull requests are used together:
+Branches allow developers to work on changes separately without directly modifying the main project. Pull requests provide a way to review those changes before merging them into the main branch. Together, they make collaboration safer and more organized.
 
-One pseudocode habit I will keep:
-I will use clear variable names and explicit instructions when writing pseudocode. I will include conditions, loops, and expected outputs. I will also test normal inputs and edge cases before considering an algorithm complete.
+One thing that confused me in this project and how I solved it:
+One thing that initially confused me was the difference between pushing a branch and merging it into main. I learned that pushing uploads my branch to GitHub but does not automatically add its changes to main. I solved this by creating a pull request from add-reflection into main and merging it after reviewing the changes.
 
 All required files are on main: Yes
